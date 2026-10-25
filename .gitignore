@@ -1,0 +1,29 @@
+# ── 第三方 App 的二进制与反编译产物：不入库 ──
+*.apk
+*.apk.idsig
+*.so
+apktool_out/
+blutter_out/
+strings_ascii.txt
+strings_utf16.txt
+
+# ── 设备 / 应用数据（含个人课表、账号信息）──
+*.hive
+logcat*.txt
+*.png
+*.jpg
+*.jpeg
+
+# ── 签名与密钥 ──
+*.keystore
+*.jks
+*.p12
+mod.keystore
+
+# ── 构建残留 ──
+__pycache__/
+*.pyc
+*.idsig
+modded_*.apk
+sit_mod_*.apk
+libapp_patched.so
